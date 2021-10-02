@@ -1,7 +1,7 @@
-println("\n\nTicket Booking System\n")
+print("\n\nTicket Booking System\n")
 restart = ('Y')
 
-while restart != ('N','NO','n','no'):
+while restart = ('N','NO','n','no'):
 	print("1.Check PNR status")
 	print("2.Ticket Reservation")
 	option = int(input("\nEnter your option : "))
@@ -34,7 +34,7 @@ while restart != ('N','NO','n','no'):
 				print("Name : ", name_l[x])
 				print("Age  : ", age_l[x])
 				print("Sex : ",sex_l[x])
-				x =+ 1
+				x += 1
 
 
 
